@@ -16,7 +16,6 @@ def main(args):
         f = open('mmr.txt', 'w')
         f.write(mmr)
         f.close()
-        print('execute')
         sleep(time_between_polls)
 
 
